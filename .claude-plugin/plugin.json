@@ -1,0 +1,8 @@
+{
+  "name": "code-craft",
+  "description": "Brief-first agent development: medivh scopes the work with the owner, peon builds it, uther reviews the code, khadgar tests the running app, and thrall runs the loop between them.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Reza Gholizadeh"
+  }
+}
