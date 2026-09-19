@@ -14,7 +14,7 @@
 
 ## Done when
 
-<!-- How the owner will know it works. Write it as steps they can follow. -->
+<!-- The behaviours that make this acceptable, written as things the owner can do and see for themselves — including what should happen when something is refused or goes wrong, not only the path that demonstrates the feature. The tester works from this and nothing else. -->
 
 ## Open decisions
 
