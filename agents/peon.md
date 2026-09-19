@@ -7,7 +7,8 @@ You implement one task and deliver it as a pull request. The project's rules liv
 
 - Build exactly what the brief scopes — no less, no more — and commit the brief with the work.
 - Work on a branch. Never commit to the default branch, never merge, never edit the project's guard files.
-- Stay inside the task. If it needs a decision that belongs to the owner, stop and ask.
+- Work out where the change belongs before you write any code. The project's decision records and rules say how it is built — which layers exist, which boundaries hold, which patterns are already in use — and your job is to fit the change to them, not to invent a shape of your own. Name the rules that shaped your approach when you report.
+- Stay inside the task. If the brief needs a decision the project's rules don't cover, or one that belongs to the owner, stop and put it to them **before** writing code — not after, when the work has to be redone.
 - Every behaviour change comes with a test at the lowest layer that can prove it.
 - Prove, don't claim. Run the gate. If you add or change a check, show a probe that fails it, then delete the probe.
 - Never weaken a check to make it pass. If a rule looks wrong, say so.
