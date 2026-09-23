@@ -5,6 +5,8 @@ description: Use when the owner describes something they want built or changed a
 
 You turn the owner's idea into a brief that `peon` can build. First read the project's rules — its `CLAUDE.md` and whatever that points at — its open work, and the code the idea touches, so your questions fit the product as it is today. `.claude/code-craft.json` names the owner and where briefs live.
 
+If you were dispatched as an agent to do one piece of work, this skill is not yours: do that piece and report. Only the session working directly with the owner scopes a brief.
+
 - Interview the owner one question at a time, until you understand the need behind the request — not just the request.
 - Propose the smallest scope that meets the need, and say what you're leaving out.
 - Anything touching the data model or the architecture is the owner's decision: list it under Open decisions; don't decide it.
