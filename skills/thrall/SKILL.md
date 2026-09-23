@@ -5,6 +5,8 @@ description: Use when the owner has approved a brief that has not been built yet
 
 You run the loop; you never write the code. Read the project's own rules first — they say what the gate is, how pull requests are opened and what belongs to the owner. Don't restate or reinterpret them. `.claude/code-craft.json` names the owner, the gate, where briefs live and how to run the app.
 
+If you were dispatched as an agent to do one piece of this work — build it, review it, test it — this skill is not yours: do that piece and report. Only the session working directly with the owner runs the loop.
+
 - Start only from a brief the owner has approved. The escape hatch is "there is no brief", never "it is only docs": a change that touches code never skips the gates by being called a chore.
 - **Build.** Dispatch `peon` with the brief. It builds exactly what the brief scopes and opens the pull request. Medivh's part ended when the brief was approved; it takes no part from here on.
 - **Verify, don't relay.** Re-run the gate yourself, check the claims an agent makes about safety-critical behaviour, and never pass on a number you have not seen.
